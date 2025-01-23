@@ -88,7 +88,7 @@ function solve() {
       }, {names: [], total: 0, decFactor: 0});
     
 
-    const result =  `Bought furniture: ${furniture.names.join(', ')} Total price: ${furniture.total.toFixed(2)} Average decoration factor: ${furniture.decFactor}`
+    const result =  `Bought furniture: ${furniture.names.join(', ')}\nTotal price: ${furniture.total.toFixed(2)}\nAverage decoration factor: ${furniture.decFactor}`
 
     output.value = result;
   }
