@@ -46,7 +46,7 @@ function solution() {
             this._views = Number(views);
         }
 
-        get view() {
+        get views() {
             return this._views;
         }
 
@@ -97,3 +97,18 @@ scm.addComment("Wow!");
 
 
 console.log(scm.toString());
+
+
+// Post: TestTitle
+
+// Content: TestContent
+
+// Rating: -5
+
+// Comments:
+
+// * Good post
+
+// * Very good post
+
+// * Wow!
