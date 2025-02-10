@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vh;
+  font-family: 'Mountains of Christmas', serif;
+  text-shadow: 3px 3px black;
+  color: rgb(79, 131, 241);
+  margin-top: -7px;
+}
+
+.snowman-container {
+  background-image: url(../images/snowman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  height: 93vh;
+  margin-top: -90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snowman {
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 9.5rem;
+}
+
+.snowman input, .snowman button ,.snowman select{
+  margin-right: 2rem;
+  width: 10rem;
+  height: 1.6rem;
+}
+.snowballs-container{
+align-items: center;
+  gap: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: -20px;
+}
+
+.snowball {
+  width: 45vw;
+  height: 50vh;
+  background-image: url(../images/snowball.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.snowball h2 {
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.snow {
+  width: 49vw;
+  height: 22vh;
+  background-image: url(../images/snow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.snowman-preview li{
+  display: flex;
+  flex-direction: column;
+  line-height: 9px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+h2 {
+  border-bottom: 2px dashed black;
+  text-shadow: 1px 1px black;
+  color: rgb(79, 131, 241);
+}
+.snow-list li article{
+  display: flex;
+  letter-spacing: 2px;
+  margin-top: -25px;
+  justify-content: center;
+  align-items: center;
+}
+.snow-list li button {
+  height: 30px;
+}
+button {
+  background-color: rgb(79, 131, 241);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+    transition: background-color 1s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.719);
+}
+
+button:hover {
+  background-color: #160864;
+}
+
+button:disabled {
+  cursor: not-allowed; 
+  background-color: red;
+}
+
+#back-img {
+  margin-top: -80px;
+  height: 80vh;
+}
+.back-btn {
+  width: 15vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  #hero {
+      flex-direction: column;
+      
+  }
+}

@@ -1,4 +1,3 @@
-
 function createComputerHierarchy() {
     class Keyboard {
 
